@@ -1,0 +1,17 @@
+column_name,data_type,description,business_context
+loan_id,STRING,Unique primary key for the loan record.,Used for reconciliation and distinct counting.
+customer_id,STRING,Unique ID for the borrower.,Links to potential Customer 360 view (if available).
+loan_type,STRING,Type of loan product.,"Values: Commercial Real Estate (CRE), Residential Mortgage, Consumer Auto, Personal Unsecured."
+origination_date,DATE,Date the loan was funded.,Used for time-series analysis and vintage reporting.
+maturity_date,DATE,Scheduled final payment date.,"Critical for managing the CRE ""maturity wall"" risk."
+origination_amount,NUMERIC,Original principal amount of the loan.,Total loan book value tracking.
+current_balance,NUMERIC,Remaining principal balance outstanding.,Used to calculate Exposure at Default (EAD).
+interest_rate,NUMERIC,Contractual Annual Percentage Rate (APR).,Core component for profitability (Net Interest Income).
+collateral_value,NUMERIC,Current market value of the collateral.,Used for LTV/LTC calculation. Updated quarterly.
+days_past_due,INTEGER,Number of days a payment is late (0 if current).,Standard banking delinquency metric (DPD).
+loan_status,STRING,Current status of the loan.,"Values: Current, Past Due (30), Past Due (60), Past Due (90+), Default/Charge-Off."
+purpose_segment,STRING,Segment/purpose of the loan.,"For CRE: Office, Retail, Multi-Family, Industrial. For Consumer: Auto, Home Improvement, etc."
+region_killeen,STRING,"Flag indicating if the loan is in the Killeen, TX Metro area.","Values: Killeen, TX Metro, Other Texas Region. Focus for local bank analysis."
+dti_ratio,NUMERIC,Debt-to-Income Ratio (borrower).,Key underwriting metric for consumer/residential risk.
+annual_income,NUMERIC,Borrower's verified annual income.,Used as a predictor in consumer risk modeling.
+credit_score,INTEGER,Borrower's FICO/Credit Score at origination.,Standard risk factor.
