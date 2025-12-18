@@ -44,4 +44,35 @@ The final deliverable is a dashboard to visually communicate the findings to sta
 | **IV. Profitability & Efficiency** | Bar Chart | Monthly Net Interest Income (NII) by Loan Type. | Informs capital allocation strategy by showing the most/least profitable products. |
 | **V. Geographic Health** | Filter/Scorecard | Risk Profile (Aggregated Score Average) for Killeen, TX Metro vs. Other Regions. | Provides local context, aligning with the Killeen-specific job location. |
 
----
+---- - - - -  - -- -- - - - - - -
+
+# **UPDATED STAKEHOLDER REPORT
+
+## **Executive Summary**
+
+This report outlines the risk profile of the $15.4B FNBT Loan Portfolio. The analysis reveals a healthy overall Average Risk Score of 1.24, but identifies a critical $173M exposure in high-risk CRE Office loans. Strategic focus is recommended for the Killeen, TX Metro area, which currently holds $5.36B (approx. 34%) of the total portfolio value.
+
+**Key Portfolio Insights**
+
+* **Total Portfolio Value:**
+  $15,392,475,931.21.
+
+* **Asset Composition:**
+  The portfolio is dominated by Commercial Real Estate (CRE) at 81%, followed by Residential Mortgages at 10.8%.
+
+* **Risk Concentration:**
+  While the overall risk is low, Office segment loans exceeding a risk score of 3.0 represent a potential "stress zone" requiring immediate monitoring.
+
+* **Regional Focus:**
+  Other Texas Regions account for $10.03B, while the Killeen Metro is the primary urban focus.
+
+#### **Recommendations**
+
+* **Immediate Mitigation:**
+  Review the specific loans within the $173M High-Risk Office segment to determine if restructuring or additional collateral is required.
+
+* **Growth Strategy:**
+  Leverage the "Safe Balance" outreach list to target high-equity, high-credit customers for retention programs.
+
+* **Regional Monitoring:**
+  Implement quarterly stress tests specifically for the Killeen, TX Metro to manage geographic concentration.
