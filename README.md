@@ -1,14 +1,14 @@
 # FNBT-Loan-Risk-Analysis-Portfolio
 An end-to-end data analysis portfolio project for the Data Analyst role at First National Bank Texas (FNBT).
 
-## 🎯 Business Problem
+## Business Problem
 First National Bank Texas (FNBT) aims to meet its aggressive growth and Return on Assets (ROA) goals while navigating the challenging economic environment, specifically the systemic risks associated with the **Commercial Real Estate (CRE)** market and the need to optimize loan product profitability.
 
 This project implements an automated ETL and analysis pipeline to proactively:
 1.  **Assess and segment high-risk loans** (e.g., CRE Office properties) based on key metrics like Loan-to-Value (LTV) and Days Past Due (DPD).
 2.  **Analyze loan product profitability** to inform strategic capital allocation and optimize Net Interest Margin (NIM).
 
-## ✨ Project Mapping to FNBT Data Analyst Role
+## Project Mapping to FNBT Data Analyst Role
 This project directly addresses the core duties of the FNBT Data Analyst job description:
 | Job Duty | Project Component |
 | :--- | :--- |
@@ -19,7 +19,7 @@ This project directly addresses the core duties of the FNBT Data Analyst job des
 | **Reconciliation of data loads** | SQL scripts include validation checks (e.g., row counts, unique constraints). |
 | **Perform research and analysis** | The core Risk Score calculation and Profitability Segmentation are the final analytical products. |
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 * **Data Sourcing & ETL:** Python (Pandas, NumPy), Google Colab
 * **Data Warehousing:** Google BigQuery (Project ID: `driiiportfolio`), SQL
 * **Analysis & Modeling:** Python (Scikit-learn/Custom Risk Model)
